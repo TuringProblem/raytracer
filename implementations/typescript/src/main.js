@@ -1,4 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var vec3_1 = require("./vec3");
 var main = function () {
+    var values = vec3_1.zero;
+    console.log(values);
     var image_width = 256;
     var image_height = 256;
     console.log("P3\n".concat(image_width, " ").concat(image_height, "\n255"));
