@@ -7,7 +7,11 @@ export type Vec3 = {
   readonly z: number;
 };
 
+
 const zero: Vec3 = { x: 0, y: 0, z: 0 };
+
+type InitVec = (x: number, y: number, z: number) => Vec3;
+const initVec3: InitVec = (x, y, z) => ({ x, y, z });
 
 const vecLength = (vec: Vec3): number => {
   return Math.sqrt(length_squared(vec));

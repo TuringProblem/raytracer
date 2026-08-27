@@ -2,13 +2,6 @@ import { zero } from "./vec3";
 
 const main = () => {
 
-  const values = zero;
-
-
-  console.log(values);
-
-
-
   const image_width: number = 256;
   const image_height: number = 256;
 
